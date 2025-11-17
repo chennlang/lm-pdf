@@ -1,0 +1,43 @@
+.easy-pdf-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 40px;
+  color: #555;
+  font-size: 14px;
+}
+
+.easy-pdf-header-buttons {
+  display: flex;
+  align-items: center;
+}
+
+.easy-pdf-header-buttons span {
+  display: inline-block;
+  margin: 0 4px;
+  padding: 0 8px;
+  cursor: pointer;
+  background: #f2f4f7;
+  user-select: none;
+}
+
+.easy-pdf-header-buttons label {
+  display: inline-block;
+  padding: 0 4px;
+}
+.easy-pdf-header-buttons span:hover {
+  background: rgb(224, 235, 255);
+}
+
+.easy-pdf-header-input {
+  width: 42px;
+  border: 1px solid #d9d9d9;
+  text-align: center;
+  -moz-appearance: textfield;
+}
+.easy-pdf-header-input::-webkit-inner-spin-button,
+.easy-pdf-header-input::-webkit-outer-spin-button {
+  -webkit-appearance: none; /* Chrome, Safari, Edge */
+  margin: 0;
+}

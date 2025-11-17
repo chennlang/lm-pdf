@@ -1,0 +1,12 @@
+.easy-pdf-icon-button {
+    display: inline-block;
+    margin: 0 4px;
+    padding: 2px 4px;
+    cursor: pointer;
+    background: #f2f4f7;
+    user-select: none;
+  }
+  
+  .easy-pdf-icon-button:hover {
+    background: rgb(224, 235, 255);
+  }

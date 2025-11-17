@@ -1,0 +1,34 @@
+{
+  "name": "lm-pdf",
+  "version": "1.0.0",
+  "description": "PDF viewer component library and demo",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "pnpm --filter web dev",
+    "dev:lib": "pnpm --filter easy-pdf dev",
+    "build": "pnpm --filter easy-pdf build && pnpm --filter web build",
+    "build:lib": "pnpm --filter easy-pdf build",
+    "build:web": "pnpm --filter web build",
+    "lint": "pnpm -r lint",
+    "type-check": "pnpm -r type-check",
+    "clean": "pnpm -r clean",
+    "preinstall": "npx only-allow pnpm"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "eslint": "^8.45.0",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "prettier": "^3.0.0",
+    "typescript": "^5.0.2"
+  },
+  "engines": {
+    "node": ">=18",
+    "pnpm": ">=8"
+  },
+  "packageManager": "pnpm@8.6.0"
+}

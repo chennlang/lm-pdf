@@ -1,0 +1,52 @@
+{
+  "name": "@lm-pdf/easy-pdf",
+  "version": "1.0.0",
+  "description": "A powerful PDF viewer component library for React",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "source": "src/index.tsx",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "vite build --watch",
+    "build": "tsc && vite build",
+    "type-check": "tsc --noEmit",
+    "lint": "eslint src --ext .ts,.tsx",
+    "lint:fix": "eslint src --ext .ts,.tsx --fix",
+    "clean": "rm -rf dist"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "dependencies": {
+    "ahooks": "^3.9.6",
+    "konva": "^9.2.0",
+    "mitt": "^3.0.1",
+    "react-konva": "^18.2.10",
+    "recoil": "^0.7.7"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "@vitejs/plugin-react": "^4.0.3",
+    "vite": "^4.4.5",
+    "vite-plugin-dts": "^3.5.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/lm-pdf.git",
+    "directory": "packages/easy-pdf"
+  },
+  "keywords": [
+    "pdf",
+    "viewer",
+    "react",
+    "component",
+    "typescript"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}

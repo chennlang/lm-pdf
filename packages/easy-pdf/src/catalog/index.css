@@ -1,0 +1,79 @@
+.catalog-container {
+  width: 100%;
+  padding: 16px;
+}
+
+.search-box {
+  margin-bottom: 16px;
+}
+
+.search-box input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.catalog-content {
+  overflow-y: auto;
+}
+
+.catalog-item {
+  margin: 4px 0;
+}
+
+.catalog-item-title {
+  display: flex;
+  align-items: center;
+  padding: 6px 8px;
+  cursor: pointer;
+  color: #333;
+  font-size: 14px;
+  border-radius: 4px;
+}
+
+.catalog-item-title:hover {
+  background-color: rgba(0, 122, 255, 0.1);
+}
+
+.title-text {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  flex: 1;
+}
+
+.expand-icon {
+  margin-right: 8px;
+  font-size: 12px;
+  transition: transform 0.2s;
+  flex-shrink: 0;
+}
+
+.catalog-children {
+  margin-left: 8px;
+}
+
+.depth-0 {
+  margin-left: 0;
+}
+.depth-1 {
+  margin-left: 8px;
+}
+.depth-2 {
+  margin-left: 16px;
+}
+.depth-3 {
+  margin-left: 24px;
+}
+
+.catalog-item-title.selected {
+  background-color: rgba(0, 122, 255, 0.2);
+  color: rgb(0, 122, 255);
+  font-weight: 500;
+}
+
+.catalog-item-title.selected:hover {
+  background-color: rgba(0, 122, 255, 0.25);
+}

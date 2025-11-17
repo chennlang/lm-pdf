@@ -1,0 +1,73 @@
+.easy-block-list .item-container {
+  margin: 8px 10px;
+  padding: 1px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.easy-block-list .item-container.active {
+  border-color: #fa8c16;
+}
+
+.easy-block-list .item-container-header {
+  padding: 8px 20px;
+  border-bottom: 1px solid #ccc;
+  background: #f2f4f7;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.easy-block-list .item-container-header-btns {
+  display: flex;
+  align-items: center;
+}
+
+.easy-block-list .item-container-header-btn {
+  display: inline-block;
+  cursor: pointer;
+  background-color: #d9d8d8;
+  border-radius: 3px;
+  height: 20px;
+  line-height: 20px;
+  padding: 0 6px;
+  margin-left: 6px;
+}
+
+.easy-block-list .item-container-header-btn.primary {
+  background-color: #1677ff;
+  color: #fff;
+}
+
+.easy-block-list .item-container-header-btn.primary:hover {
+  background-color: #227cf9;
+}
+
+.easy-block-list .item-container-header-btn:hover {
+  background-color: #ccc;
+}
+
+.easy-block-list .item-container-content {
+  padding: 8px 20px;
+  background: #fff;
+  white-space: pre-wrap;
+}
+
+.easy-block-list .item-container-html-content {
+  padding: 8px 20px;
+  background: #fff;
+  white-space: pre-wrap;
+}
+
+.easy-block-list .item-container-html-content table{
+  width: 100%;
+  text-align: center;
+  margin: 10px 0;
+}
+.easy-block-list .item-container-html-content table, td{
+  border-width: 1px;
+}
+
