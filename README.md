@@ -2,6 +2,9 @@
 
 A comprehensive PDF viewer solution with component library and demo application.
 
+https://github.com/user-attachments/assets/cd555032-2af5-4ac7-b65b-f3b57f767757
+
+
 ## 📦 Repository Structure
 
 ```
@@ -25,7 +28,7 @@ lm-pdf/
 ### Backend
 - FastAPI
 - pdf2image
-- Pillow
+- PyMuPDF
 - Python 3.8+
 
 ### Frontend
@@ -45,19 +48,7 @@ lm-pdf/
 
 ## 🚀 Quick Start
 
-### 1. Install System Dependencies
-
-**macOS:**
-```bash
-brew install poppler
-```
-
-**Ubuntu/Debian:**
-```bash
-sudo apt-get install poppler-utils
-```
-
-### 2. Setup Backend
+## 1. Setup Backend
 
 ```bash
 cd backend
