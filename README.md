@@ -1,9 +1,30 @@
 # LM PDF
 
-A comprehensive PDF viewer solution with component library and demo application.
+<div align="center" style="text-align: center;">
+    <h1 style="text-align: center;">LM PDF</h1>
+    <p style="text-align: center;">A lightning-fast PDF preview solution for the LLM era</p>
+    <p style="text-align: center;">Load 1000+ page PDFs in seconds!</p>
+    <p align='center'>
+      <b>English</b>
+      |
+      <a href="/README_zh.md">简体中文</a>
+      |
+      <a href="README_jp.md">日本語</a>
+    </p>
+</div>
+
+## 🎯 Problems Solved
+
+Compared to the common PDF.js, LM-PDF specifically addresses the problems of slow loading speed and poor rendering performance for large files. No matter how many pages the PDF file has or how large the original file is, it can load and preview in seconds!
+
+**Particularly suitable for scenarios where LLM responses require citation source verification**, such as:
+
+- 📚 Academic paper reading and citation verification
+- 🔍 Quick location and preview of long documents
+- 🤖 Source material verification for AI assistant responses
+- 📊 Instant access and navigation of large reports
 
 https://github.com/user-attachments/assets/cd555032-2af5-4ac7-b65b-f3b57f767757
-
 
 ## 📦 Repository Structure
 
@@ -26,12 +47,14 @@ lm-pdf/
 ## 🛠️ Tech Stack
 
 ### Backend
+
 - FastAPI
 - pdf2image
 - PyMuPDF
 - Python 3.8+
 
 ### Frontend
+
 - React 18
 - TypeScript
 - Vite
@@ -48,7 +71,7 @@ lm-pdf/
 
 ## 🚀 Quick Start
 
-## 1. Setup Backend
+### 1. Setup Backend
 
 ```bash
 cd backend
@@ -75,6 +98,7 @@ pnpm dev
 ## 📜 Available Scripts
 
 ### Monorepo Scripts
+
 - `pnpm dev` - Start demo application
 - `pnpm build` - Build all packages
 - `pnpm build:lib` - Build component library only
@@ -84,6 +108,7 @@ pnpm dev
 - `pnpm clean` - Clean all build outputs
 
 ### Backend Scripts
+
 - `python main.py` - Start backend server
 - `uvicorn main:app --reload` - Start with hot reload
 
