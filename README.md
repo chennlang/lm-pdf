@@ -1,5 +1,3 @@
-# LM PDF
-
 <div align="center" style="text-align: center;">
     <h1 style="text-align: center;">LM PDF</h1>
     <p style="text-align: center;">A lightning-fast PDF preview solution for the LLM era</p>
